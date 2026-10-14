@@ -9,7 +9,7 @@
 
 Name:		python-qt6-graphs
 Version:	6.10.0
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/p/%{pypi_name}/%{oname}-%{version}.tar.gz
 Summary:	Python bindings for the Qt Graphs library
 URL:		https://pypi.org/project/python-qt6-graphs/
@@ -25,7 +25,7 @@ BuildRequires:	qt6-cmake
 BuildRequires:	glibc-devel
 BuildRequires:	sed
 BuildRequires:	pkgconfig(dbus-python)
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	cmake(Qt6Bluetooth)
 BuildRequires:	cmake(Qt6Concurrent)
 BuildRequires:	cmake(Qt6Nfc)
